@@ -18,7 +18,9 @@ p
 {
  font: 30px font-family: 'Fira Sans', sans-serif;
 }
-
+p{
+font-size: 30px;
+}
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
