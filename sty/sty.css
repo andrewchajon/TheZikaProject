@@ -21,11 +21,7 @@ p
 p{
 font-size: 30px;
 }
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
-  }
-}
+
 /* Parallax sty */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
   position: relative;
@@ -99,4 +95,8 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+  }
+}
