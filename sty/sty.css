@@ -16,7 +16,7 @@ h3 {
 }
 p
 {
-  font: 30px font-family: 'Fira Sans', sans-serif;
+  font-size: 30px; font: 30px font-family: 'Fira Sans', sans-serif;
 }
 
 @media only screen and (max-device-width: 1024px) {
