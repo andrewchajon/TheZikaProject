@@ -97,6 +97,6 @@ li a:hover {
 }
 @media only screen and (max-device-width: 526px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
