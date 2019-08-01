@@ -107,3 +107,8 @@ li a:hover {
     padding: 5px 5px;
   }
 }
+@media only screen and (max-device-width: 300px) {
+    p {
+    font-size: 25px;
+  }
+}
