@@ -38,7 +38,7 @@ p{
   background-size: cover;
 }
 .bgimg-2{
-  background-image: url(../img/);
+  background-image: url(../img/bgimg-2);
   min-height: 750px;
   background-size: contain;
 
