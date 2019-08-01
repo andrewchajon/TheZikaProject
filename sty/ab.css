@@ -19,6 +19,9 @@ h3 {
   font: 20px font-family: 'Fira Sans', sans-serif;
   color: #111;
 }
+p{
+  font-size: 30px;
+}
 p
 {
  font: 30px font-family: 'Fira Sans', sans-serif;
@@ -63,7 +66,8 @@ li a:hover {
   }
 }
 @media only screen and (max-device-width: 300px) {
-    html {
-    font-size: 70%
+    p {
+      text-align: center;
+ 
   }
 }
