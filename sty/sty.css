@@ -19,7 +19,7 @@ p
  font: 30px font-family: 'Fira Sans', sans-serif;
 }
 p{
-font-size: 30px;
+   font-size: 30px; 
 }
 
 /* Parallax sty */
@@ -90,13 +90,18 @@ li a {
   text-align: center;
   padding: 19px 16px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 li a:hover {
   background-color: #111;
 }
-@media only screen and (max-device-width: 450px) {
+@media only screen and (max-device-width: 400px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
+  }
+  li a{
+    padding: 10px 10px;
+    font-size: 45px;
   }
 }
