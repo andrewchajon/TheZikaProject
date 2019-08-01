@@ -60,12 +60,12 @@ li a:hover {
 }
 @media only screen and (max-device-width: 300px) {
     li a {
-    font-size: 55px;
-    padding: 4px 4px;
+    font-size: 45px;
+    padding: 5px 5px;
   }
 }
 @media only screen and (max-device-width: 300px) {
-    p {
-    font-size: 5px;
+    html {
+    font-size: 70%
   }
 }
