@@ -96,20 +96,19 @@ li a {
 li a:hover {
   background-color: #111;
 }
-@media only screen and (max-device-width: 300px) {
+@media only screen and (max-device-width: 320px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
   }
 }
-@media only screen and (max-device-width: 300px) {
+@media only screen and (max-device-width: 320px) {
     li a {
     font-size: 45px;
     padding: 5px 5px;
   }
 }
-@media only screen and (max-device-width: 300px) {
+@media only screen and (max-device-width: 320px) {
     p {
-    font-size: 15px;
-    padding: 0%;
-  }
+    font-size: 0px;
+    }
 }
