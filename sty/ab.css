@@ -67,7 +67,7 @@ li a:hover {
 }
 @media only screen and (max-device-width: 300px) {
     p {
-      text-align: center;
+      text-align: none;
  
   }
 }
