@@ -23,9 +23,7 @@ p
 {
  font: 30px font-family: 'Fira Sans', sans-serif;
 }
-p{
-   font-size: 30px; 
-}
+
 /*navbar sty */
 ul {
   list-style-type: none;
@@ -64,8 +62,8 @@ li a:hover {
     padding: 5px 5px;
   }
 }
-@media only screen and (max-device-width: 300px) {
+@media only screen and (max-device-width: 1024px) {
     p {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
