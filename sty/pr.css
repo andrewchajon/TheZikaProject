@@ -147,7 +147,13 @@ li a:hover {
   }
 }
 @media only screen and (max-device-width: 700px) {
-    .dropbtn {
+    .caption span.border {
+   color: black;
+  background-color: white;
+  }
+}
+@media only screen and (max-device-width: 700px) {
+    .dropdown {
     font-size: 10px;
     padding: 5px 5px;
   }
