@@ -142,15 +142,8 @@ li a:hover {
 }
 @media only screen and (max-device-width: 700px) {
     li a {
-    font-size: 5px;
+    font-size: 10px;
     padding: 5px 5px;
-  }
-}
-@media only screen and (max-device-width: 700px) {
-    .caption span.border {
-  padding: 15px;
-  font-size: 45px;
-  letter-spacing: 9px;
   }
 }
 @media only screen and (max-device-width: 700px) {
