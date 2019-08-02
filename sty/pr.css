@@ -75,7 +75,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  height: 85px;
   background-color: #333;
   top: 0;
 }
