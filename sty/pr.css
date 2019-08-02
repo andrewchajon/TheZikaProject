@@ -142,8 +142,8 @@ li a:hover {
 }
 @media only screen and (max-device-width: 700px) {
     li a {
-    font-size: 0px;
-    padding: 0px;
+    font-size: 5px;
+    padding: 5px 5px;
   }
 }
 @media only screen and (max-device-width: 700px) {
