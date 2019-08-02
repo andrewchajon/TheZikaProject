@@ -1,154 +1,81 @@
-/*body sty */
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-}
-html{
-  scroll-behavior: smooth;
-}
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px font-family: 'Fira Sans', sans-serif;
-  color: #111;
-}
-p
-{
- font: 30px font-family: 'Fira Sans', sans-serif;
-}
-p{
-   font-size: 30px; 
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="sty/pr.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Project</title>
+</head>
+<body>
 
-/* Parallax sty */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
-  position: relative;
-  opacity: 0.95;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="pr.html">Project</a></li>
+  <li><a href="ct.html">Contact</a></li>
+  <li><a href="ab.html">About Us</a></li>
+  <li><a href="#google_translate_element">Google Translate</a></li>
+  <li> 
+  	<div class="dropdown">
+	  <button class="dropbtn">Menu</button>
+	  <div class="dropdown-content">
+	    <a href="#Project">Our Project</a>
+	    <a href="#Biology">Biology</a>
+	    <a href="#Math">Math</a>
+	    <a href="#DesignThinking">HWM Question</a>
+        <a href="#Protype-1">Prototypes</a>
+	  </div>
+	</div>
+	</li>
+</ul>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Summer Project</span>
+  </div>
+</div>
 
-}
-.bgimg-1 {
-  background-image: url("../img/tPJ1aMv.jpg");
-  min-height: 68%;
-  background-size: cover;
-}
-.bgimg-2{
-  background-image: url(../img/bgimg-2);
-  min-height: 750px;
-  background-size: contain;
+<div style="color: #777;background-color:white;text-align:center;padding:55px 80px;text-align: justify;">
+  <h3 id="Project" style="text-align:center;">What is Our Project?</h3>
+  <p style="text-align: left;">Zika Virus was first discovered in Uganda in 1947. The first human case discovered was in 1952. Since then there has been outbreaks in Africa, Southeast Asia, and the Pacific Islands.Zika Virus is transmitted by mosquito bites, mother to fetus, and through sex.The disease isn’t deadly but it does cause birth defects.In tropical Africa, Southeast Asia, and the Pacific Islands. 
+</p>
+</div>
+<div style="color: #777;background-color:white;text-align:center;padding:55px 80px;text-align: justify;">
+  <h3 id="Biology" style="text-align:center;">Biology</h3>
+  <p style="text-align: left;">Zika Virus was first discovered in Uganda in 1947. The first human case discovered was in 1952. Since then there has been outbreaks in Africa, Southeast Asia, and the Pacific Islands.Zika Virus is transmitted by mosquito bites, mother to fetus, and through sex.The disease isn’t deadly but it does cause birth defects.In tropical Africa, Southeast Asia, and the Pacific Islands. 
+</p>
+</div>
+<div id="Math" style="color: #777;background-color:white;text-align:center;padding:55px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Math</h3>
+  <div class="bgimg-2"></div>
+  <p style="text-align: left;">Zika Virus was first discovered in Uganda in 1947. The first human case discovered was in 1952. Since then there has been outbreaks in Africa, Southeast Asia, and the Pacific Islands.Zika Virus is transmitted by mosquito bites, mother to fetus, and through sex.The disease isn’t deadly but it does cause birth defects.In tropical Africa, Southeast Asia, and the Pacific Islands. 
+</p>
+</div>
+<div id="DesignThinking" style="color: #777;background-color:white;text-align:center;padding:55px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Desigh Thinking HMW Question</h3>
+  <p style="text-align: left;">Zika Virus was first discovered in Uganda in 1947. The first human case discovered was in 1952. Since then there has been outbreaks in Africa, Southeast Asia, and the Pacific Islands.Zika Virus is transmitted by mosquito bites, mother to fetus, and through sex.The disease isn’t deadly but it does cause birth defects.In tropical Africa, Southeast Asia, and the Pacific Islands. 
+</p>
+</div>
+<div id="Protype-1" style="color: #777;background-color:white;text-align:center;padding:55px 80px;text-align: justify;">
+  <h3 style="text-align:center;"> Prototype 1</h3>
+  <p>Zika Virus was first discovered in Uganda in 1947. The first human case discovered was in 1952. Since then there has been outbreaks in Africa, Southeast Asia, and the Pacific Islands.Zika Virus is transmitted by mosquito bites, mother to fetus, and through sex.The disease isn’t deadly but it does cause birth defects.In tropical Africa, Southeast Asia, and the Pacific Islands. 
+</p>
+</div>
+<div id="Protype-2" style="color: #777;background-color:white;text-align:center;padding:55px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Prototype 2</h3>
+  <p style="text-align: left;">Zika Virus was first discovered in Uganda in 1947. The first human case discovered was in 1952. Since then there has been outbreaks in Africa, Southeast Asia, and the Pacific Islands.Zika Virus is transmitted by mosquito bites, mother to fetus, and through sex.The disease isn’t deadly but it does cause birth defects.In tropical Africa, Southeast Asia, and the Pacific Islands. 
+</p>
+</div>
+<div style="color: #FFFFFF;background-color:#606060;text-align:center;padding:25px 90px;">
+<div id="google_translate_element"></div>
 
-  
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 }
-.bgimg-3{
-  background-image: url(../img/);
-  min-height: 550px;
-  background-size: contain;
+</script>
 
-  
-}
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div> 
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 45px;
-  letter-spacing: 10px;
-}
-/*bg img */
-
-
-/*navbar sty */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  top: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 19px 16px;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-li a:hover {
-  background-color: #111;
-}
-@media only screen and (max-device-width: 700px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
-  }
-}
-.dropbtn {
-  color: white;
-  text-align: center;
-  padding: 19px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  background-color: black;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: white}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-@media only screen and (max-device-width: 700px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
-  }
-}
-@media only screen and (max-device-width: 700px) {
-    li a {
-    font-size: 10px;
-    padding: 5px 5px;
-  }
-}
-@media only screen and (max-device-width: 700px) {
-    .dropdown {
-    font-size: 10px;
-    padding: 5px 5px;
-  }
-}
+</body>
+</html>
