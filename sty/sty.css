@@ -96,14 +96,14 @@ li a {
 li a:hover {
   background-color: #111;
 }
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 700px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
   }
 }
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 700px) {
     li a {
-    font-size: 45px;
+    font-size: 25px;
     padding: 5px 5px;
   }
 }
