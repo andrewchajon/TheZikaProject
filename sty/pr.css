@@ -136,7 +136,6 @@ li a:hover {
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-}
 @media (max-width: 700px) {
     li {
       display: block;
@@ -155,4 +154,3 @@ li a:hover {
     height: 300px;
   }
 }
-
