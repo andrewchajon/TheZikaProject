@@ -138,14 +138,20 @@ li a:hover {
 
 }
 @media only screen and (max-device-width: 700px) {
+    li {
+      display: block;
+      float: none;
+    }
     li a {
     font-size: 10px;
     padding: 5px 5px;
   }
-}
-@media only screen and (max-device-width: 700px) {
-    .dropdown {
+   .dropdown {
     font-size: 10px;
     padding: 5px 5px;
   }
+  ul{
+    height: 300px;
+  }
 }
+
