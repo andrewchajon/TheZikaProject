@@ -150,7 +150,7 @@ li a:hover {
     .caption span.border {
   padding: 15px;
   font-size: 45px;
-  letter-spacing: 5px;
+  letter-spacing: 9px;
   }
 }
 @media only screen and (max-device-width: 700px) {
