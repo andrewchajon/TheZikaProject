@@ -141,10 +141,13 @@ li a:hover {
     li {
       display: block;
       float: none;
+      font-size: 10px;
+    padding: 5px 5px;
     }
     li a {
     font-size: 10px;
     padding: 5px 5px;
+
   }
    .dropdown {
     font-size: 10px;
@@ -154,3 +157,4 @@ li a:hover {
     height: 300px;
   }
 }
+
