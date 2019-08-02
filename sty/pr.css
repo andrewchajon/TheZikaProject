@@ -149,7 +149,7 @@ li a:hover {
 @media only screen and (max-device-width: 700px) {
     .caption span.border {
   color: black;
-  background-color: white;
+  background-color: none;
   padding: 18px;
   font-size: 45px;
   letter-spacing: 10px;
