@@ -26,7 +26,11 @@ p
 {
  font: 30px font-family: 'Fira Sans', sans-serif;
 }
-
+.bgimg{
+width: 20%;
+height:35%;
+margin-right: 20px;
+}
 /*navbar sty */
 ul {
   list-style-type: none;
@@ -54,14 +58,8 @@ li a:hover {
   background-color: #111;
 }
 /*media sty*/
-@media only screen and (max-device-width: 300px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
-  }
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+  .bgimg{
+  width: 100%;
 }
-@media only screen and (max-device-width: 300px) {
-    li a {
-    font-size: 45px;
-    padding: 5px 5px;
-  }
-}
+    }
