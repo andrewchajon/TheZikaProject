@@ -6,13 +6,32 @@
 	<title>About us</title>
 </head>
 <body>
-	<ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="pr.html">Project</a></li>
-      <li><a href="ct.html">Contact</a></li>
-      <li><a href="ab.html">About Us</a></li>
-      <li><a href="#google_translate_element">Google Translate</a></li>
-  </ul>
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="pr.html">Project</a>
+  <a href="ct.html">Contact</a>
+  <a href="ab.html">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#google_translate_element">Google Translate</a>
+    </div>
+  </div> 
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
   <div class="title" style="color: #777;text-align:center;text-align: justify;">
   <h1 style="text-align:center;">About us</h1>
 <br>
